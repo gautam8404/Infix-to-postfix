@@ -113,7 +113,6 @@
             if (isdigit(postfix[i])){
                 k = postfix[i] - '0';
                 int_push(k,&in);
-                printf("%d\n",k);
                 
             }
             else {
